@@ -1,7 +1,7 @@
 # Say Tattoo! 🖋️ 
 
 <p align="center">
-  <img src="sayTattoo_logo.jpeg" width="300" alt="Say Tattoo Logo">
+  <img src="Logos_Horizontal-02.png" width="300" alt="Say Tattoo Logo">
 </p>
 
 <p align="center">
@@ -41,3 +41,4 @@ Como indica la documentación del proyecto, Say Tattoo! es una plataforma **esca
 
 ---
 <p align="right">Desarrollado por Sandra De Tena Gómez - Full Stack Developer</p>
+
