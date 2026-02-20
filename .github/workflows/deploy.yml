@@ -21,7 +21,7 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build
-        # Quitamos --prod para que no de error con el environment.ts
+        # Usamos build a secas para que NO busque el archivo environment.prod.ts
         run: npx ng build --base-href /Say_Tattoo-_ProyectoFullStack/ --output-path dist
 
       - name: Deploy
