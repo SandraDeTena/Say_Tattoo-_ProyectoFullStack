@@ -17,15 +17,16 @@ jobs:
         with:
           node-version: 14
 
-      - name: Install dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Build
-        # Usamos build a secas para que NO busque el archivo environment.prod.ts
-        run: npx ng build --base-href /Say_Tattoo-_ProyectoFullStack/ --output-path dist
+      - name: Install and Build
+        # El comando 'cd' es la clave: entra en la carpeta donde está el código real
+        run: |
+          cd Say_Tattoo-_ProyectoFullStack
+          npm install --legacy-peer-deps
+          npx ng build --base-href /Say_Tattoo-_ProyectoFullStack/ --output-path dist
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist
+          # Aquí también le decimos dónde acabó el resultado
+          folder: Say_Tattoo-_ProyectoFullStack/dist
           branch: gh-pages
