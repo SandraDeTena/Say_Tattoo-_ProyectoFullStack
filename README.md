@@ -1,27 +1,43 @@
-# ProyectoFinalAngular
+# Say Tattoo! 🖋️ 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.11.
+<p align="center">
+  <img src="sayTattoo_logo.jpeg" width="300" alt="Say Tattoo Logo">
+</p>
 
-## Development server
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular">
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+### 🌟 El Proyecto
+**Say Tattoo!** es una plataforma Full Stack desarrollada durante el Bootcamp de **Neoland**. Su objetivo es crear un ecosistema digital donde tatuadores y usuarios conviven, permitiendo la exposición de portfolios profesionales y el descubrimiento de nuevos artistas en España.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🛠️ Stack Tecnológico
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* **Front-End:** Angular 16, TypeScript, SCSS, Bootstrap.
+* **Back-End:** Java, Spring Boot, Spring Security (JWT).
+* **Base de Datos:** MySQL con persistencia de datos relacionales.
 
-## Running unit tests
+### 🚀 Funcionalidades Clave (Extraídas de la Documentación)
+* **Gestión de Portfolios:** Espacio dedicado para que el tatuador exponga trabajos reales.
+* **Buscador Inteligente:** Filtrado de artistas por **estilos** y **ciudades**.
+* **Seguridad:** Registro y Login con roles diferenciados (Tatuador vs. Usuario).
+* **Inspiración:** Galería de trabajos para usuarios que buscan ideas para su próximo tatuaje.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 📈 Conclusiones y Evolución
+Como indica la documentación del proyecto, Say Tattoo! es una plataforma **escalable**. 
+> "La idea original era sencilla, pero el proyecto creció permitiendo añadir funcionalidades como sistemas de favoritos personalizables y botones de gestión de cuenta (RGPD)."
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## 🔗 Enlaces de interés
+- **Demo en vivo:** [Ver Proyecto Online](https://sandradetena.github.io/Say_Tattoo-_ProyectoFullStack/)
+- **Portfolio Principal:** [Sandra De Tena](https://sandradetena.github.io/)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+<p align="right">Desarrollado por Sandra De Tena Gómez - Full Stack Developer</p>
