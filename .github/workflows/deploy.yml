@@ -30,7 +30,7 @@ jobs:
 
       - name: Install deps
         working-directory: proyectoFinalAngular
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Build Angular
         working-directory: proyectoFinalAngular
@@ -51,3 +51,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
